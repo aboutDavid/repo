@@ -1,8 +1,4 @@
- .subtitle {
-    opacity:0.5; 
-    margin-bottom:1.7em;
-  }
-  main {
+  ain {
 		max-width:750px;
 		margin:0 auto;
 	}
@@ -19,11 +15,11 @@
   pre.code {
 		text-align:left;
 		background: #333;
-    color: white;
-    padding: 1em;
-    border-radius: 2px;
+    		color: white;
+    		padding: 1em;
+    		border-radius: 2px;
 		tab-size: 2;
-		-moz-tab-size: 2;
-		-o-tab-size: 2;
-		-webkit-tab-size: 2;
+			-moz-tab-size: 2;
+			-o-tab-size: 2;
+			-webkit-tab-size: 2;
 	}
