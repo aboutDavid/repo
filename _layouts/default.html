@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>aboutDavid's Repo</title>
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
@@ -11,7 +11,13 @@
       <a href="/blog">Blog</a>
     </nav>
     <h1><center>{{ page.title }}</center</h1>
-     <p style="opacity:0.5; margin-bottom:1.7em;"><center>Welcome to my Repo.</center></p>
+      <style>
+      p.subtitle {
+        opacity:0.5; 
+        margin-bottom:1.7em;
+        }
+      </style>
+     <p class="subtitle"><center>Welcome to my Repo.</center></p>
     <section>
       {{ content }}
     </section>
